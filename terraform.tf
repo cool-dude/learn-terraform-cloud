@@ -1,12 +1,13 @@
 terraform {
 
+  /*For VCS/ git workflow
   cloud {
-    organization = "organization-name"
+    organization = "DELV-tf"
 
     workspaces {
       name = "learn-terraform-cloud"
     }
-  }
+  }*/
 
   required_providers {
     aws = {
